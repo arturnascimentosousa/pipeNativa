@@ -40,8 +40,8 @@ jobs:
         tags: v1, latest
         registry: registry-url.io
         dockerfile: dockerfile
-        username: ${{secrets.username}}
-        password: ${{secrets.password}}
+        username: ${{secrets.USERNAME}}
+        password: ${{secrets.PASSWORD}}
         # Tags override for Docker image
        
    
