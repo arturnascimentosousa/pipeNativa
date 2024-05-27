@@ -36,9 +36,9 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6.4
       with:
         # Name of the Docker image
-        image: repo/image
+        image: artursousa/pipenativo
         tags: v1, latest
-        registry: registry-url.io
+        registry: docker.io
         dockerfile: dockerfile
         username: ${{secrets.USERNAME}}
         password: ${{secrets.PASSWORD}}
