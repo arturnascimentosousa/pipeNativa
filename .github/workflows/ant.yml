@@ -37,7 +37,7 @@ jobs:
       with:
         # Name of the Docker image
         image: artursousa/pipenativo
-        tags:- name: Calendar Versioning
+        tags:- name: ${{ format('{0}:{1}', image, secrets.VERSION) }}
         registry: docker.io
         dockerfile: dockerfile
         username: ${{secrets.USERNAME}}
