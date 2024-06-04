@@ -37,7 +37,7 @@ jobs:
       with:
         # Name of the Docker image
         image: artursousa/pipenativo
-        tags:- name: ${{ format('{0}:{1}', image, secrets.VERSION) }}
+        tags: .betareleases/v1.2.31.2.3-beta.someNumber
         registry: docker.io
         dockerfile: dockerfile
         username: ${{secrets.USERNAME}}
