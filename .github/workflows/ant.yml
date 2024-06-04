@@ -37,7 +37,7 @@ jobs:
       with:
         # Name of the Docker image
         image: artursousa/pipenativo
-        tags:- name: Versioning Checker
+        tags:- name: tags-versioning
         registry: docker.io
         dockerfile: dockerfile
         username: ${{secrets.USERNAME}}
